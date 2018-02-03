@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @copyright Copyright (c) 2016 www.magebuzz.com
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="3columns"
+      xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Magebuzz_Testimonial::css/style.css"/>
+        <title>Customer Testimonials</title>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="Magebuzz\Testimonial\Block\Main" name="magebuzz.testimonial.block.main"/>
+            <referenceBlock name="magebuzz.testimonial.sidebar" remove="true" />
+        </referenceContainer>
+    </body>
+</page>
